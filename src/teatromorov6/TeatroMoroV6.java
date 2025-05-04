@@ -44,7 +44,7 @@ public class TeatroMoroV6 {
             } catch (Exception ex) {
                 System.out.println("Error: " + ex.getMessage());
             }
-        } while (op != 5);
+        } while (!salir);
         sc.close();
     }
 

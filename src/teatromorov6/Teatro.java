@@ -93,7 +93,7 @@ public class Teatro {
     }
 
     public int venderEntrada(Cliente cli, int tipoIdx) {
-        int idxCli = registraCliente(cli);
+        registraCliente(cli);
         String asiento;
         if (nextAsientoIndex[tipoIdx] >= AFORO[tipoIdx]) {
             throw new IllegalStateException("Teatro lleno para tipo " + TIPOS[tipoIdx]);
