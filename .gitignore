@@ -1,0 +1,27 @@
+# NetBeans IDE metadata
+nbproject/private/
+nbproject/var/private/
+nbproject/nbbuild/
+nbproject/build-impl.xml
+
+# Build output
+build/
+nbbuild/
+dist/*
+!dist/*.jar
+
+# Compiled classes
+*.class
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+.project
+.classpath
+.idea/
+.vscode/
