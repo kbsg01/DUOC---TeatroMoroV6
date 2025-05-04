@@ -45,8 +45,6 @@ src/
 
 ```bash
 # Desde la carpeta raíz del proyecto
-tree src
-ejecutar:
 javac -d out/production/ src/teatromorov6/*.java src/teatromorov6/utils/*.java
 ```
 
@@ -54,6 +52,13 @@ javac -d out/production/ src/teatromorov6/*.java src/teatromorov6/utils/*.java
 
 ```bash
 java -cp out/production/ teatromorov6.TeatroMoroV6
+```
+
+### Ejecutar la aplicación desde el JAR
+NetBeans (u otro proceso de build) genera un JAR con el Main-Class en dist/ (por ejemplo dist/TeatroMoroV6.jar). Para ejecutarlo:
+```bash
+java -jar dist/TeatroMoroV6.jar
+
 ```
 
 ---
