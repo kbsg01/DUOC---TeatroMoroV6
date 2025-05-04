@@ -18,10 +18,10 @@ import java.util.List;
 
 public class Teatro {
     public static final String[] TIPOS = { "VIP", "Platea Alta", "Platea Baja", "Palcos" };
-    private static final double[] PRECIOS = { 30000, 18000, 15000, 13000 };
-    private static final int CAPACIDAD = 300;
-    private static final int[] AFORO = { CAPACIDAD / 4, CAPACIDAD / 4, CAPACIDAD / 4, CAPACIDAD / 8 };
-    private static final DecimalFormat df = new DecimalFormat("#,###");
+    public static final double[] PRECIOS = { 30000, 18000, 15000, 13000 };
+    public static final int CAPACIDAD = 300;
+    public static final int[] AFORO = { CAPACIDAD / 4, CAPACIDAD / 4, CAPACIDAD / 4, CAPACIDAD / 8 };
+    public static final DecimalFormat df = new DecimalFormat("#,###");
 
     private final Entrada[] ventas = new Entrada[CAPACIDAD];
     private final Cliente[] clientes = new Cliente[CAPACIDAD];

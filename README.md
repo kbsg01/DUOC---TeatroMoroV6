@@ -1,18 +1,5 @@
 # Teatro Moro - Sistema de venta/reserva de entradas
 
-## Estructura proyecto
-```
-src/
-└── teatromorov6/
-    ├── Cliente.java
-    ├── Entrada.java
-    ├── Promocion.java
-    ├── Reserva.java
-    ├── Teatro.java
-    ├── MenuController.java
-    └── TeatroMoroV6.java    # Clase principal con método main
-
-```
 
 ## Características
 
@@ -73,6 +60,7 @@ java -jar dist/TeatroMoroV6.jar
 
   * Gestión de listas fijas y contadores (`ventas`, `clientes`).
   * Métodos: `reservarAsiento()`, `comprarReserva()`, `venderEntrada()`, `imprimirEntrada()`, `mostrarResumen()`.
+
 * **MenuController** (en `utils/`): gestión del menú y flujos de interacción.
 * **TeatroMoroV6**: clase con `main()` que invoca al `MenuController`.
 
